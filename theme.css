@@ -1,0 +1,17 @@
+body.light-theme {
+  text-color:#000;
+  anchor-color:#4F3674;
+  h1-backgroundcolor:#3c275a;
+  h1-border-color:#D6A800;
+  heading-background-color:#3c275a;
+  heading-color:#fff;
+  heading-border-color:#D6A800;
+  anchor-hover-color:#4F3674;
+  anchor-hover-background-color:#D6a800;
+  card-background-color:#fff;
+  card-title-color:#4F3674;
+  btn-color:#fff;
+  btn-hover-background-color:#D6A800;
+  btn-hover-color:#4F3674;
+  input-border-color: #ccc;
+}
