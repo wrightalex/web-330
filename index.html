@@ -5,39 +5,7 @@
     <link rel="stylesheet" href="site.css">
       <title>“WEB 330 – Enterprise JavaScript II”>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-             <script>
-        setDefaultTheme();
-
-        function toggleMode(x)
-        {
-            let colorTheme = document.body.classList; // get the body's CSS class
-            let iconMode = x.classList; // get the current classes assigned to the triggered button
-          
-            if (colorTheme.value === "light-theme")
-            {
-                localStorage.clear();
-                localStorage.setItem("mode", "dark-theme");
-                localStorage.setItem("iconMode", "fa-toggle-on");
-                localStorage.setItem("iconText", "Dark Mode");
-            }
-            else
-            {
-                localStorage.clear();
-                localStorage.setItem("mode", "light-theme");
-                localStorage.setItem("iconMode", "fa-toggle-off");
-                localStorage.setItem("iconText", "Light Mode");
-            }
-            colorTheme.value = localStorage.getItem("mode");
-            iconMode.value = `fa ${localStorage.getItem("iconMode")} pull-right`;
-            document.getElementById("icon-text").innerHTML = localStorage.getItem("iconText");
-        }
-        function clearLocalStorage() {
-            localStorage.clear();
-            document.body.classList.value = "light-theme";
-            document.getElementById("icon-text").innerHTML = "Light Mode";
-            document.getElementById("icon-mode").classList.value = "fa fa-toggle-off pull-right";
-        }
-    </script>
+  
         </head>
     <body>
       <body class="light-theme">
